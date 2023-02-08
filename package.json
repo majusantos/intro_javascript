@@ -1,0 +1,20 @@
+{
+  "name": "intro_javascript",
+  "version": "1.0.0",
+  "description": "introdução programação javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majusantos/intro_javascript.git"
+  },
+  "keywords": [],
+  "author": "maju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majusantos/intro_javascript/issues"
+  },
+  "homepage": "https://github.com/majusantos/intro_javascript#readme"
+}
