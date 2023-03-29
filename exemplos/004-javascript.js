@@ -1,13 +1,40 @@
-let entrada = require('prompt-sync')();
-console.log ('Programa que calcula a média de tres idades diferentes');
-let soma1 = require('Digite o primerio nome: ');
-let idade1 = parseInt(entrada('Digite a idade: '));
-let soma2 = entrada ('Digite o segundo nome: ');
-let idade2 = parseInt(entrada('Digite a idade2: '));
-let soma3 = entrada ('Digite o terceiro nome: ');
-let idade3 = parseInt(entrada('Digite a idade3 '));
-let soma = (idade1 + idade2 + idade3) / 3;
-let divisao = soma / 3;
-console.log (+ soma);
-console.log ('A média entre as 3 idades é de: ' + divisão);
+/*
+    Crie um programa que receba o nome e a nota de
+    4 matérias.
+    Exibir o nome das 4 matérias com a nota e a média final.
+    Ex:
+    Matemática: 7,00
+    Inglês: 10,00
+    Geografia: 8,00
+    Física: 8,00
+    Média: 8,25
+*/
+
+const entrada = require('prompt-sync')();
+
+let mat1 = entrada ('Digite o nome da 1ª matéria: ')
+let n1 = entrada ('Digite a nota de ' + mat1);
+
+let mat2 = entrada ('Digite o nome da 2º matéria: ')
+let n2 = entrada ('Digite a nota de ' + mat2);
+
+let mat3 = entrada ('Digite o nome da 3º matéria: ')
+let n3 = entrada ('Digite a nota de ' + mat3);
+
+let mat4 = entrada ('Digite o nome da 4º matéria: ')
+let n4 = entrada ('Digite a nota de ' + mat4 ); 
+
+let media = (n1 + n2 + n3 + n4) / 4;
+
+console.log('Notas: ');
+console.log(mat1 + ': ' + nl.toFixed(2));
+
+console.log(mat2 + ': ' + n2.toFixed(2));
+
+console.log(mat3 + ': ' + n3.toFixed(2));
+
+console.log(mat4 + ': ' + n4.toFixed(2));
+
+console.log('Média: ' + media.toFixed(2));
+
 
